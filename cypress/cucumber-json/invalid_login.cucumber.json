@@ -21,8 +21,8 @@
             "line": 5,
             "name": "i enter login page",
             "result": {
-              "status": "undefined",
-              "duration": 17000000
+              "status": "passed",
+              "duration": 417000000
             }
           },
           {
@@ -31,7 +31,8 @@
             "line": 6,
             "name": "i type incorrent login credentials",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 579000000
             }
           },
           {
@@ -40,7 +41,8 @@
             "line": 7,
             "name": "i click login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 87000000
             }
           },
           {
@@ -49,7 +51,8 @@
             "line": 8,
             "name": "i should remain in login page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7000000
             }
           }
         ]

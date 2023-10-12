@@ -8,7 +8,7 @@ Given("i enter login page", () => {
 // When:
 When("i type incorrent login credentials", () => {
   cy.get("#user-name").type(Cypress.env("invalid_user"));
-  cy.get("#password").type(Cypress.en("invalid_pass"));
+  cy.get("#password").type(Cypress.env("invalid_pass"));
 });
 
 // And
