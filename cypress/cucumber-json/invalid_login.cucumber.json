@@ -5,13 +5,13 @@
     "line": 1,
     "id": "login-app",
     "tags": [],
-    "uri": "app_login.feature",
+    "uri": "invalid_login.feature",
     "elements": [
       {
-        "id": "login-app;standard-user-login",
+        "id": "login-app;invalid-user-login",
         "keyword": "Scenario",
         "line": 3,
-        "name": "standard user Login",
+        "name": "invalid user Login",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -21,18 +21,17 @@
             "line": 5,
             "name": "i enter login page",
             "result": {
-              "status": "passed",
-              "duration": 1816000000
+              "status": "undefined",
+              "duration": 17000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "i type login credentials",
+            "name": "i type incorrent login credentials",
             "result": {
-              "status": "passed",
-              "duration": 592000000
+              "status": "skipped"
             }
           },
           {
@@ -41,18 +40,16 @@
             "line": 7,
             "name": "i click login button",
             "result": {
-              "status": "passed",
-              "duration": 99000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "i should be in home page",
+            "name": "i should remain in login page",
             "result": {
-              "status": "passed",
-              "duration": 7000000
+              "status": "skipped"
             }
           }
         ]
